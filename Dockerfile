@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/Vlkeria/Interstellar.git
+RUN git clone https://github.com/Vlkeria/Rendering.git
 
-WORKDIR /Interstellar
+WORKDIR /Rendering
 
 RUN npm install
 
