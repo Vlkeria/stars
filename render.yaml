@@ -1,7 +1,5 @@
-```
 services:
   - type: web
     name: Stars
     env: docker
     plan: free
-```
