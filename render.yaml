@@ -1,7 +1,7 @@
 ```
 services:
   - type: web
-    name: <Stars>
+    name: Stars
     env: docker
     plan: free
 ```
