@@ -1,4 +1,3 @@
-```
 FROM node:20-alpine
 
 RUN apk add --no-cache git
@@ -10,4 +9,3 @@ WORKDIR /Interstellar
 RUN npm install
 
 CMD npm start
-```
